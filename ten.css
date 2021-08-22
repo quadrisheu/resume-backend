@@ -1,0 +1,98 @@
+
+
+body {width:100%;height:100%;color:#222;font-family:san francisco;font-size:15px;}
+
+#my-navbar {margin:0px;}
+#my-navbar .navbar-nav>li>a {font-size:14px; margin-left:5px; color:black;}
+#my-navbar .navbar-nav>li>a:hover {background-color:#eeeeee;}
+#my-navbar .navbar-nav> .active>a {color:black; background-color:#eeeeee;}
+.navbar-brand>p {color:indigo; font-size:21px; font-style:italic;}
+
+
+ .carousel {width:100%; height:100%; padding:0px; margin:0px;overflow:hidden;}
+ 
+carousel-inner img {width:100%; height:650px;}
+
+#about {font-size:45px; border-bottom-style:ridge; font-weight:bold; border-bottom-color:white;}
+#services {margin-top:10px;}
+.final {width:270px;max-height:227px;}
+.card {width:207px;max-height:450px;}
+
+
+.jumbotron {margin-top:15px;}
+
+
+
+a i img{width:30px;height:30px;background:grey;text-align:center;line-height:30px;font-size:15px;
+margin:10px 5px;display:block;border-radius:50%;position:relative;overflow:hideen;border:3px solid #fff;}
+a i .fa {position:relative;color:white;transition:.5s;}
+a i:hover .fa {transform:rotateY(360deg);}
+
+#booking .form #sendmessage {
+  color: #e2900f;
+  border: 1px solid #e2900f;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#booking .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#booking .form #sendmessage.show, #booking .form #errormessage.show, #booking .form .show {
+  display: block;
+}
+
+#booking .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#booking .form input, #contact .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#booking .form button[type="submit"] {
+  background: #e2900f;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#booking .form button[type="submit"]:hover {
+  background: #f1ea3e;
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+.card {margin-left:auto;margin-right:auto;}
+}
+
+@media screen and (max-width:767px){
+.final {margin-left:auto;margin-right:auto;}
+}
+
+
+
+
+
